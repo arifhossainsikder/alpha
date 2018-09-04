@@ -32,15 +32,14 @@
                         <strong><?php the_author(); ?></strong><br/>
                         <?php the_date(); ?>
                     </p>
-                    <ul class="list-unstyled">
-                        <li>dhaka</li>
-                    </ul>
+                    <?php echo get_the_tag_list("<ul class=\"list-unstyled\"><li>","</li><li>","</li></ul>") ?>
+
                 </div>
                 <div class="col-md-8">
                      <?php if (has_post_thumbnail()): ?>
-                        <p><?php the_post_thumbnail("large", "class='img-fluid'"); ?></p>
+                        <p><?php the_post_thumbnail("large", array("class" => 'img-fluid')); ?></p>
                     <?php endif ?>
-                    <?php the_content(); ?>
+                    <?php the_excerpt(); ?>
                 </div>
             </div>
 
@@ -48,6 +47,19 @@
     </div>
 
     <?php endwhile; ?>
+
+    <div class="container post-pagination">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-8">
+                <?php the_posts_pagination(array(
+                    'screen_reader_text' => ' ',
+                    'prev_text'          => 'New posts',
+                    'next_text'          => 'Old posts'
+                )); ?>
+            </div>
+        </div>
+    </div>
 
 </div>
 <div class="footer">

@@ -71,3 +71,7 @@ h1.heading {
           max-width: 100%;
           height: auto;
         }
+
+        .post-pagination {
+          margin-bottom: 50px;
+        }
