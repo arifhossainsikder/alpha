@@ -66,3 +66,8 @@ h1.heading {
         .tags li{
             color: #3D9970;
         }
+
+        .post p img, .post img{
+          max-width: 100%;
+          height: auto;
+        }
