@@ -25,11 +25,7 @@
                      <?php if (has_post_thumbnail()): ?>
                         <p><?php the_post_thumbnail("large", array("class" => 'img-fluid')); ?></p>
                     <?php endif ?>
-                    <?php if (is_single()) {
-                        the_content();
-                    } else{
-                        the_excerpt();
-                    } ?>
+                    <?php the_excerpt(); ?>
                 </div>
             </div>
 
