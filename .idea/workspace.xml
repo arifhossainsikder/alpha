@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3ece77b3-183f-4ef7-830e-8e67abeb1af3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/wp-content/themes/alpha/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/alpha/functions.php" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/alpha/single.php" afterPath="$PROJECT_DIR$/wp-content/themes/alpha/single.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +13,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/functions.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="684">
-              <caret line="19" column="65" lean-forward="false" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
+              <caret line="24" column="145" lean-forward="false" selection-start-line="24" selection-start-column="145" selection-end-line="24" selection-end-column="145" />
+              <caret line="25" column="118" lean-forward="false" selection-start-line="25" selection-start-column="118" selection-end-line="25" selection-end-column="118" />
               <folding />
             </state>
           </provider>
@@ -36,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/assets/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
@@ -100,9 +100,9 @@
         <option value="$PROJECT_DIR$/wp-content/themes/alpha/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/alpha/hero.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/alpha/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/alpha/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/alpha/single.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/alpha/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/alpha/functions.php" />
       </list>
     </option>
   </component>
@@ -217,12 +217,12 @@
       <workItem from="1538122849547" duration="611000" />
       <workItem from="1538236928989" duration="2782000" />
       <workItem from="1539336104560" duration="193000" />
-      <workItem from="1540797937298" duration="5375000" />
+      <workItem from="1540797937298" duration="5944000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9300000" />
+    <option name="totallyTimeSpent" value="9869000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -329,14 +329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="19" column="65" lean-forward="false" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1036">
@@ -359,6 +351,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="24" column="145" lean-forward="false" selection-start-line="24" selection-start-column="145" selection-end-line="24" selection-end-column="145" />
+          <caret line="25" column="118" lean-forward="false" selection-start-line="25" selection-start-column="118" selection-end-line="25" selection-end-column="118" />
           <folding />
         </state>
       </provider>
