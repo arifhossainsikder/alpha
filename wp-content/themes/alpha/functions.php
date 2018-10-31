@@ -10,6 +10,7 @@ function alpha_bootstraping() {
 	load_theme_textdomain( "alpha" );
 	add_theme_support( "post-thumbnails" );
 	add_theme_support( "title-tag" );
+	add_theme_support("custom-header");
 	register_nav_menu( "topmenu", __( "Top Menu", "alpha" ) );
 	register_nav_menu( "footermenu", __( "Footer Menu", "alpha" ) );
 }
@@ -107,5 +108,16 @@ function alpha_about_page_template_banner(){
 		</style>
 		<?php
 	}
+	if (is_front_page()){
+	    ?>
+<style>
+    .header{
+        background-image: url(<?php echo header_image();?>);
+        background-size: cover;
+        margin-bottom: 10px;
+    }
+</style>
+<?php
+    }
 }
 add_action("wp_head","alpha_about_page_template_banner",11);
