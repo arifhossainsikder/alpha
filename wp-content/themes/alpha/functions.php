@@ -14,7 +14,10 @@ function alpha_bootstraping()
 	$alpha_custom_header_setails = array(
 		'header-text' => true,
 		'default-text-color' => '#222',
-
+        'width' => 1200,
+        'height' => 600,
+        'flex-height' => true,
+        'flex-width' => true,
 	);
 	add_theme_support("custom-header", $alpha_custom_header_setails);
 	$alpha_custom_logo_defaults = array(
