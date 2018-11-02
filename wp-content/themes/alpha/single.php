@@ -44,6 +44,19 @@
 											?>
                                         </p>
                                     </div>
+                                    <div class="authorsection">
+                                        <div class="row">
+                                            <div class="col-md-2">
+                                                <?php echo get_avatar(get_the_author_meta("id")); ?>
+                                            </div>
+                                            <div class="col-md-10">
+                                                <h2><?php echo get_the_author_meta("display_name"); ?></h2>
+                                                <p>
+                                                    <?php echo get_the_author_meta("description");?>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
 									<?php /*if ( comments_open() ): */?><!--
                             <div class="col-md-10 offset-md-1">
                                 <?php
