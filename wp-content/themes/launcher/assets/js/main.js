@@ -86,11 +86,10 @@
 	};
 
 	var countDown = function() {
-
 		simplyCountdown('.simply-countdown-one', {
-			year: "2018",
-			month: "11",
-			day: "30"
+			year: datedata.year,
+			month: datedata.month,
+			day: datedata.day
 		});
 
 	};
