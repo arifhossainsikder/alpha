@@ -9,7 +9,7 @@ if (!is_active_sidebar("sidebar-1")) {
 }
 
 ?>
-<body <?php body_class(); ?>>
+<body <?php body_class(array("newClass")); ?>>
 <?php get_template_part("/template-parts/common/hero"); ?>
     <div class="container">
         <div class="row">
