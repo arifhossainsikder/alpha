@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ece77b3-183f-4ef7-830e-8e67abeb1af3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/alpha/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/alpha/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/alpha/post-formats/content-audio.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/alpha/post-formats/content-image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/alpha/post-formats/content-quote.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/alpha/post-formats/content-video.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/alpha/post-formats/content.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/alpha/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/alpha/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/alpha/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/alpha/single.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,11 +36,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="29" column="92" selection-start-line="29" selection-start-column="92" selection-end-line="29" selection-end-column="92" />
+            <state relative-caret-position="172">
+              <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/post-formats/content.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content-video.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/post-formats/content-video.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content-audio.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/post-formats/content-audio.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="75" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content-quote.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/post-formats/content-quote.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content-image.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/post-formats/content-image.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -84,7 +132,12 @@
         <option value="$PROJECT_DIR$/wp-content/themes/launcher/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/alpha/single.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/alpha/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/alpha/post-formats/content.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/alpha/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/alpha/post-formats/content-audio.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/alpha/post-formats/content-quote.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/alpha/post-formats/content-video.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/alpha/post-formats/content-image.php" />
       </list>
     </option>
   </component>
@@ -137,6 +190,14 @@
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="alpha" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="lwhh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lwhh" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="alpha" type="462c0819:PsiDirectoryNode" />
+              <item name="post-formats" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -152,13 +213,14 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\lwhh\wp-content\themes\alpha\post-formats" />
+      <recent name="D:\xampp\htdocs\lwhh\wp-content\themes\alpha" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\xampp\htdocs\lwhh\wp-content\themes\alpha\template-parts\common" />
       <recent name="D:\xampp\htdocs\lwhh\wp-content\themes\alpha\template-parts\about-page" />
       <recent name="D:\xampp\htdocs\lwhh\wp-content\themes\alpha\page-templates" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\xampp\htdocs\lwhh\wp-content\themes\alpha" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -192,12 +254,12 @@
       <workItem from="1541006254540" duration="4566000" />
       <workItem from="1541097089143" duration="3322000" />
       <workItem from="1541135631954" duration="5093000" />
-      <workItem from="1541148495327" duration="2266000" />
+      <workItem from="1541148495327" duration="3016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29679000" />
+    <option name="totallyTimeSpent" value="30429000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -252,41 +314,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/launcher/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/launcher/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6850">
-          <caret line="274" lean-forward="true" selection-start-line="274" selection-end-line="274" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="11" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/launcher/launcher.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/template-parts/common/hero.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -601,8 +628,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="29" column="92" selection-start-line="29" selection-start-column="92" selection-end-line="29" selection-end-column="92" />
+        <state relative-caret-position="172">
+          <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/post-formats/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/post-formats/content-audio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="75" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/post-formats/content-video.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/post-formats/content-quote.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/post-formats/content-image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
         </state>
       </provider>
     </entry>
