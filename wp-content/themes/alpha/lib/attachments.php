@@ -97,3 +97,58 @@ function alpha_testimonial_attachments( $attachments )
 }
 
 add_action( 'attachments_register', 'alpha_testimonial_attachments' );
+
+
+function alpha_team_attachments( $attachments )
+{
+	$fields         = array(
+		array(
+			'name'      => 'name',                         // unique field name
+			'type'      => 'text',                          // registered field type
+			'label'     => __( 'Name', 'attachments' ),    // label to display
+		),
+		array(
+			'name'      => 'email',                         // unique field name
+			'type'      => 'text',                          // registered field type
+			'label'     => __( 'Email', 'attachments' ),    // label to display
+		),
+		array(
+			'name'      => 'position',                         // unique field name
+			'type'      => 'text',                          // registered field type
+			'label'     => __( 'Position', 'attachments' ),    // label to display
+		),
+		array(
+			'name'      => 'bio',                         // unique field name
+			'type'      => 'textarea',                          // registered field type
+			'label'     => __( 'Bio', 'attachments' ),    // label to display
+		)
+	);
+
+	$args = array(
+
+		// title of the meta box (string)
+		'label'         => 'Team members section',
+
+		// all post types to utilize (string|array)
+		'post_type'     => array( 'page'),
+
+
+		// allowed file type(s) (array) (image|video|text|audio|application)
+		'filetype'      => array('image'),  // no filetype limit
+
+		// include a note within the meta box (string)
+		'note'          => 'Add team members!',
+
+
+		// text for 'Attach' button in meta box (string)
+		'button_text'   => __( 'Attach files', 'alpha' ),
+
+		// fields array
+		'fields'        => $fields,
+
+	);
+
+	$attachments->register( 'team', $args ); // unique instance name
+}
+
+add_action( 'attachments_register', 'alpha_team_attachments' );

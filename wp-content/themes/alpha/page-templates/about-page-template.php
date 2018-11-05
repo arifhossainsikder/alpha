@@ -24,15 +24,16 @@ get_header();
                 <div class="row">
                     <div class="row">
                         <div class="col-md-8 offset-md-2">
-                            <?php
-								if (class_exists('Attachments')) {
-								    ?>
-                                    <h2 class="text-center"><?php _e("Testimonials") ?></h2>
 
-								<?php	}  ?>
                             <div class="testimonials slider text-center">
+
 								<?php
-								if (class_exists('Attachments')) {
+								$attachments = new Attachments('testimonials');
+								if (class_exists('Attachments') && $attachments->exist()) {
+
+									?>
+                                    <h2 class="text-center"><?php _e("Testimonials") ?></h2>
+									<?php
 									$attachments = new Attachments('testimonials');
 									if ($attachments->exist()) {
 										while ($attachment = $attachments->get()) {
@@ -50,8 +51,45 @@ get_header();
 								}
 								?>
                             </div>
+
                         </div>
                     </div>
+
+                    <div class="row">
+                        <div class="col-md-8 offset-md-2">
+
+
+                            <div class="testimonials text-center">
+
+								<?php
+								$attachments = new Attachments('team');
+								if (class_exists('Attachments') && $attachments->exist()) {
+								?>
+                                <h2 class="text-center"><?php _e("Team members") ?></h2>
+								<?php
+
+
+								if ($attachments->exist()) {
+								while ($attachment = $attachments->get()) {
+								?>
+                                <div>
+									<?php echo $attachments->image("thumbnail"); ?>
+                                    <h4><?php echo esc_html($attachments->field("name")); ?></h4>
+                                    <p><?php echo esc_html($attachments->field("bio")); ?></p>
+                                    <p><?php echo esc_html($attachments->field("position")); ?>
+                                        , <?php echo esc_html($attachments->field("email")); ?></p>
+                                </div>
+
+								<?php }
+								}
+								}
+								?>
+                            </div>
+
+                        </div>
+                    </div>
+
+
                     <div class="col-md-10 offset-md-1">
                         <p>
 							<?php
