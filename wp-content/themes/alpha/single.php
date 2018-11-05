@@ -34,14 +34,31 @@ if (!is_active_sidebar("sidebar-1")) {
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
+                                        <div class="slider">
+											<?php
+											if (class_exists('Attachments')) {
+												$attachments = new Attachments('slider');
+												if ($attachments->exist()) {
+													while ($attachment = $attachments->get()) {
+														?>
+                                                        <div>
+															<?php echo $attachments->image("large"); ?>
+                                                        </div>
+													<?php }
+												}
+											}
+											?>
+                                        </div>
                                         <p>
 											<?php
-											if (has_post_thumbnail()) {
+											if (! class_exists('Attachments')) {
+												if (has_post_thumbnail()) {
 //											    $thumbnail_url = get_the_post_thumbnail_url(null,"large");
 //											    printf("<a href='#' data-featherlight='%s'>",$thumbnail_url);
-												echo "<a class='popup' href='#' data-featherlight='#'>";
-												the_post_thumbnail("large", array("class" => "img-fluid"));
-												echo '</a>';
+													echo "<a class='popup' href='#' data-featherlight='#'>";
+													the_post_thumbnail("large", array("class" => "img-fluid"));
+													echo '</a>';
+												}
 											}
 
 											the_content();
