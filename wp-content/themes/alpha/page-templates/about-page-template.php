@@ -24,15 +24,17 @@ get_header();
                 <div class="row">
                     <div class="row">
                         <div class="col-md-8 offset-md-2">
+							<?php
+							$attachments = new Attachments('testimonials');
+							if (class_exists('Attachments') && $attachments->exist()) {
+
+							?>
+                            <h2 class="text-center"><?php _e("Testimonials") ?></h2>
+
 
                             <div class="testimonials slider text-center">
 
-								<?php
-								$attachments = new Attachments('testimonials');
-								if (class_exists('Attachments') && $attachments->exist()) {
 
-									?>
-                                    <h2 class="text-center"><?php _e("Testimonials") ?></h2>
 									<?php
 									$attachments = new Attachments('testimonials');
 									if ($attachments->exist()) {
