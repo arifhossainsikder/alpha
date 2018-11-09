@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ece77b3-183f-4ef7-830e-8e67abeb1af3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/alpha/cq.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/alpha/cq-wpq.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cq.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cq.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/cq.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
+            <state relative-caret-position="825">
               <caret line="33" column="69" selection-start-line="33" selection-start-column="69" selection-end-line="33" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cq-wpq.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/cq-wpq.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -89,6 +98,7 @@
         <option value="$PROJECT_DIR$/wp-content/themes/alpha/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/alpha/single.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/alpha/cq.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/alpha/cq-wpq.php" />
       </list>
     </option>
   </component>
@@ -252,12 +262,12 @@
       <workItem from="1541525775225" duration="1191000" />
       <workItem from="1541602085514" duration="598000" />
       <workItem from="1541612156071" duration="1269000" />
-      <workItem from="1541777541735" duration="2548000" />
+      <workItem from="1541777541735" duration="4316000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51519000" />
+    <option name="totallyTimeSpent" value="53287000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -312,13 +322,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2000">
-          <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/template-parts/about-page/hero-page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -653,8 +656,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/cq.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
+        <state relative-caret-position="825">
           <caret line="33" column="69" selection-start-line="33" selection-start-column="69" selection-end-line="33" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/cq-wpq.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
         </state>
       </provider>
     </entry>
