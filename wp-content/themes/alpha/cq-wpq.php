@@ -11,6 +11,8 @@ get_header(); ?>
 //			'category_name' => 'uncategorized',
 			'posts_per_page' => $posts_per_page,
 			'paged' => $paged,
+			'meta_key' => 'featured',
+			'meta_value' => 1
 //			'tax_query' => array(
 //				'relation' => 'OR',
 //				array(
@@ -27,17 +29,17 @@ get_header(); ?>
 //			'monthnum' => 9,
 //			'year' => 2018,
 //			'post_status' => 'draft'
-			'tax_query' => array(
-				'relation' => 'OR',
-				array(
-					'taxonomy' => 'post_format',
-					'field' => 'slug',
-					'terms' => array(
-						'post-format-audio',
-						'post-format-video'),
-					'operator' => 'NOT IN'
-				),
-			)
+//			'tax_query' => array(
+//				'relation' => 'OR',
+//				array(
+//					'taxonomy' => 'post_format',
+//					'field' => 'slug',
+//					'terms' => array(
+//						'post-format-audio',
+//						'post-format-video'),
+//					'operator' => 'NOT IN'
+//				),
+//			)
 		));
 
 		while ($_p->have_posts()) {
