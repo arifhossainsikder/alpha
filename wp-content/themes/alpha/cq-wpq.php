@@ -9,21 +9,24 @@ get_header(); ?>
 		$post_ids       = array(19, 11, 6);
 		$_p             = new WP_Query(array(
 //			'category_name' => 'uncategorized',
-			'posts_per_page' => $posts_per_page,
-			'paged' => $paged,
-			'tax_query' => array(
-				'relation' => 'OR',
-				array(
-					'taxonomy' => 'category',
-					'field' => 'slug',
-					'terms' => array('uncategorized')
-				),
-				array(
-					'taxonomy' => 'post_tag',
-					'field' => 'slug',
-					'terms' => array('nature')
-				)
-			)
+//			'posts_per_page' => $posts_per_page,
+//			'paged' => $paged,
+//			'tax_query' => array(
+//				'relation' => 'OR',
+//				array(
+//					'taxonomy' => 'category',
+//					'field' => 'slug',
+//					'terms' => array('uncategorized')
+//				),
+//				array(
+//					'taxonomy' => 'post_tag',
+//					'field' => 'slug',
+//					'terms' => array('nature')
+//				)
+//			)
+			'monthnum' => 9,
+			'year' => 2018,
+			'post_status' => 'draft'
 		));
 
 		while ($_p->have_posts()) {
