@@ -25,8 +25,8 @@
       <file leaf-file-name="cq-wpq.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/cq-wpq.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="458">
+              <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -263,12 +263,12 @@
       <workItem from="1541612156071" duration="1269000" />
       <workItem from="1541777541735" duration="4395000" />
       <workItem from="1541858077239" duration="596000" />
-      <workItem from="1541874513668" duration="1160000" />
+      <workItem from="1541874513668" duration="2278000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55122000" />
+    <option name="totallyTimeSpent" value="56240000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -664,8 +664,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/cq-wpq.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="458">
+          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
         </state>
       </provider>
     </entry>
