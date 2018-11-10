@@ -181,3 +181,10 @@ function alpha_highlight_search_results($text){
 add_filter('the_content', 'alpha_highlight_search_results');
 add_filter('the_excerpt', 'alpha_highlight_search_results');
 add_filter('the_title', 'alpha_highlight_search_results');
+
+function alpha_modify_main_query($wpq){
+    if ($wpq->is_main_query() && is_home()){
+     $wpq->set("tag__not_in",array(11));
+    }
+}
+add_action("pre_get_posts","alpha_modify_main_query");
