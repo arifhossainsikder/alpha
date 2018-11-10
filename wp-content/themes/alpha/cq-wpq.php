@@ -8,9 +8,22 @@ get_header(); ?>
 		$posts_per_page = 2;
 		$post_ids       = array(19, 11, 6);
 		$_p             = new WP_Query(array(
-			'category_name' => 'uncategorized',
+//			'category_name' => 'uncategorized',
 			'posts_per_page' => $posts_per_page,
-			'paged' => $paged
+			'paged' => $paged,
+			'tax_query' => array(
+				'relation' => 'OR',
+				array(
+					'taxonomy' => 'category',
+					'field' => 'slug',
+					'terms' => array('uncategorized')
+				),
+				array(
+					'taxonomy' => 'post_tag',
+					'field' => 'slug',
+					'terms' => array('nature')
+				)
+			)
 		));
 
 		while ($_p->have_posts()) {
