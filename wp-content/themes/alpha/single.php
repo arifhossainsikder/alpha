@@ -122,6 +122,15 @@ if (!is_active_sidebar("sidebar-1")) {
                                         <p>
 											<?php echo get_the_author_meta("description"); ?>
                                         </p>
+										<?php if (function_exists("the_field")): ?>
+                                            <p>
+                                                Facebook: <?php the_field("facebook", "user_" . get_the_author_meta("id")) ?>
+                                            </p>
+                                            <p>
+                                                Twitter: <?php the_field("twitter", "user_" . get_the_author_meta("id")) ?>
+                                            </p>
+
+										<?php endif; ?>
                                     </div>
                                 </div>
                             </div>

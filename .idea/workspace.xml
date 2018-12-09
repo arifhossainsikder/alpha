@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ece77b3-183f-4ef7-830e-8e67abeb1af3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/alpha/category-dhaka.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/alpha/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/alpha/single.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,20 +40,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="single.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/single.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1894">
-              <caret line="153" column="13" selection-start-line="153" selection-start-column="13" selection-end-line="153" selection-end-column="13" />
+            <state relative-caret-position="369">
+              <caret line="126" column="121" selection-start-line="126" selection-start-column="121" selection-end-line="126" selection-end-column="121" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="category-dhaka.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="category-dhaka.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/category-dhaka.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="200">
+              <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -155,8 +154,8 @@
         <option value="$PROJECT_DIR$/wp-content/themes/alpha/cq-wpq.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/alpha/inc/tgm.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/alpha/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/alpha/single.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/alpha/category-dhaka.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/alpha/single.php" />
       </list>
     </option>
   </component>
@@ -334,12 +333,12 @@
       <workItem from="1541951123962" duration="3406000" />
       <workItem from="1542045845323" duration="2310000" />
       <workItem from="1542127299532" duration="1179000" />
-      <workItem from="1544380423302" duration="824000" />
+      <workItem from="1544380423302" duration="1867000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67219000" />
+    <option name="totallyTimeSpent" value="68262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -725,17 +724,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/single.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/category-dhaka.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1894">
-          <caret line="153" column="13" selection-start-line="153" selection-start-column="13" selection-end-line="153" selection-end-column="13" />
+        <state relative-caret-position="200">
+          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/category-dhaka.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="369">
+          <caret line="126" column="121" selection-start-line="126" selection-start-column="121" selection-end-line="126" selection-end-column="121" />
         </state>
       </provider>
     </entry>
