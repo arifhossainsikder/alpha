@@ -131,6 +131,27 @@ if (!is_active_sidebar("sidebar-1")) {
                                             </p>
 
 										<?php endif; ?>
+
+										<?php if (function_exists("the_field")): ?>
+                                            <div>
+                                                <h1><?php _e("Related posts", "alpha") ?></h1>
+												<?php
+												$related_posts = get_field("related_posts");
+												$alpha_rp      = new WP_Query(array(
+													'post__in' => $related_posts,
+													'orderby' => 'post__in',
+												));
+
+												while ($alpha_rp->have_posts()) {
+													$alpha_rp->the_post();
+													?>
+                                                    <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a>
+                                                    </h3>
+												<?php }
+												wp_reset_query(); ?>
+
+                                            </div>
+										<?php endif; ?>
                                     </div>
                                 </div>
                             </div>
