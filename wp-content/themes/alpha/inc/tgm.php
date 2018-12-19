@@ -65,6 +65,18 @@ function alpha_register_required_plugins() {
 			'required'  => false,
 		),
 
+		array(
+			'name'      => 'CMB2',
+			'slug'      => 'cmb2',
+			'required'  => false,
+		),
+
+		array(
+			'name'      => 'CMB2 Conditionals',
+			'slug'      => 'cmb2-conditionals',
+			'source'  => 'https://github.com/jcchavezs/cmb2-conditionals/archive/master.zip',
+		),
+
 	);
 
 	/*

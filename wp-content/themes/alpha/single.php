@@ -102,6 +102,28 @@ if (!is_active_sidebar("sidebar-1")) {
 								endif;
 								?>
 
+								<?php if (get_post_format() == 'image' && class_exists('CMB2')):
+									$alpha_model = get_post_meta(get_the_ID(), "_alpha_camera_model", true);
+									$alpha_location = get_post_meta(get_the_ID(), "_alpha_location", true);
+									$alpha_date = get_post_meta(get_the_ID(), "_alpha_date", true);
+									$alpha_licensed = get_post_meta(get_the_ID(), "_alpha_licensed", true);
+									$alpha_license_information = get_post_meta(get_the_ID(), "_alpha_license_information", true);
+
+									?>
+
+                                    <div class="metainfo">
+                                        <p>Camera: <?php echo esc_html($alpha_model) ?></p>
+                                        <p>Location: <?php echo esc_html($alpha_location) ?></p>
+                                        <p>Date: <?php echo esc_html($alpha_date) ?></p>
+										<?php if ($alpha_licensed): ?>
+                                            <p>
+                                                Info: <?php echo apply_filters("the_content", $alpha_license_information) ?></p>
+										<?php endif; ?>
+                                    </div>
+
+
+								<?php endif; ?>
+
 								<?php
 								wp_link_pages();
 
