@@ -119,6 +119,13 @@ if (!is_active_sidebar("sidebar-1")) {
                                             <p>
                                                 Info: <?php echo apply_filters("the_content", $alpha_license_information) ?></p>
 										<?php endif; ?>
+                                        <?php
+                                        $alpha_image = get_post_meta(get_the_ID(),"_alpha_image_id",true);
+                                        $alpha_image_details = wp_get_attachment_image_src($alpha_image,"medium");
+										echo "<img src='" . esc_url($alpha_image_details[0]) . "' alt=''>";
+										$alpha_resume = get_post_meta(get_the_ID(),"_alpha_resume",true);
+										echo $alpha_resume;
+										?>
                                     </div>
 
 
