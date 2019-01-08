@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ece77b3-183f-4ef7-830e-8e67abeb1af3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/philosophy/inc/attachments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/philosophy/single.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/philosophy/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/philosophy/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/philosophy/inc/tgm.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/philosophy/inc/tgm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/philosophy/template-parts/post-formats/post-audio.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/philosophy/template-parts/post-formats/post-audio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/philosophy/template-parts/post-formats/post-gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/philosophy/template-parts/post-formats/post-gallery.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/philosophy/template-parts/post-formats/post-video.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/philosophy/template-parts/post-formats/post-video.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/philosophy/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/philosophy/header.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,15 +40,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/markup/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -76,9 +63,27 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="post-audio.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="post-audio.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/template-parts/post-formats/post-audio.php">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/single.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="508">
+              <caret line="81" column="36" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="navigation.php" pinned="false" current-in-tab="false">
@@ -164,13 +169,13 @@
         <option value="$PROJECT_DIR$/wp-content/themes/philosophy/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/philosophy/assets/css/base.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/philosophy/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/philosophy/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/philosophy/template-parts/blog-home/featured.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/philosophy/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/philosophy/template-parts/common/navigation.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/philosophy/template-parts/post-formats/post-gallery.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/philosophy/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/philosophy/inc/tgm.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/philosophy/header.php" />
       </list>
     </option>
   </component>
@@ -273,6 +278,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\lwhh\wp-content\themes\philosophy" />
       <recent name="D:\xampp\htdocs\lwhh\wp-content\themes\philosophy\template-parts\post-formats" />
       <recent name="D:\xampp\htdocs\lwhh\wp-content\themes\philosophy\inc" />
       <recent name="D:\xampp\htdocs\lwhh\wp-content\themes\alpha" />
@@ -341,12 +347,12 @@
       <workItem from="1546592769243" duration="3075000" />
       <workItem from="1546622704095" duration="2040000" />
       <workItem from="1546798233086" duration="3655000" />
-      <workItem from="1546969438216" duration="1791000" />
+      <workItem from="1546969438216" duration="2634000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94867000" />
+    <option name="totallyTimeSpent" value="95710000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -401,13 +407,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/post-formats/content-video.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/post-formats/content-quote.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -630,13 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1775">
-          <caret line="71" column="68" selection-start-line="71" selection-start-column="68" selection-end-line="71" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/template-parts/blog-home/featured.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -715,6 +707,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/template-parts/post-formats/post-audio.php">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="81" column="36" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
