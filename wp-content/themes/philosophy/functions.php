@@ -54,4 +54,4 @@ function philosophy_pagination() {
 	echo $links;
 }
 
-
+remove_action("term_description","wpautop");
