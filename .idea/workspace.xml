@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ece77b3-183f-4ef7-830e-8e67abeb1af3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/philosophy/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/philosophy/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/philosophy/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/philosophy/header.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/functions.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="481">
-              <caret line="125" column="8" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="8" />
+              <caret line="160" column="58" selection-start-line="160" selection-start-column="58" selection-end-line="160" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -92,11 +92,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2025">
-              <caret line="81" column="36" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
+            <state relative-caret-position="181">
+              <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -125,6 +125,7 @@
       <find>header__na</find>
       <find>form</find>
       <find>quick</find>
+      <find>regis</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -179,11 +180,11 @@
         <option value="$PROJECT_DIR$/wp-content/themes/philosophy/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/philosophy/template-parts/common/navigation.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/philosophy/template-parts/post-formats/post-gallery.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/philosophy/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/philosophy/comments.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/philosophy/inc/tgm.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/philosophy/contact.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/philosophy/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/philosophy/header.php" />
       </list>
     </option>
   </component>
@@ -339,12 +340,12 @@
       <workItem from="1546798233086" duration="3655000" />
       <workItem from="1546969438216" duration="4925000" />
       <workItem from="1547044200186" duration="3789000" />
-      <workItem from="1547056621806" duration="1024000" />
+      <workItem from="1547056621806" duration="1931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102814000" />
+    <option name="totallyTimeSpent" value="103721000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -399,13 +400,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/date.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/author.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -644,13 +638,6 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/template-parts/post-formats/post-audio.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2025">
-          <caret line="81" column="36" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/single.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -704,10 +691,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/theme-compat/header.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="481">
-          <caret line="125" column="8" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="8" />
+          <caret line="160" column="58" selection-start-line="160" selection-start-column="58" selection-end-line="160" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
         </state>
       </provider>
     </entry>
