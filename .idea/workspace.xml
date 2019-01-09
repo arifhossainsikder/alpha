@@ -2,7 +2,647 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ece77b3-183f-4ef7-830e-8e67abeb1af3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/css/styles-dark-mode.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/css/styles-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/edit-contact-form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/includes/admin-functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/includes/class-contact-forms-list-table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/includes/config-validator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/includes/editor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/includes/help-tabs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/includes/tag-generator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/includes/welcome-panel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/js/tag-generator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/images/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/capabilities.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/config-validator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/contact-form-functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/contact-form-template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/contact-form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/css/styles-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/form-tag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/form-tags-manager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/formatting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/integration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_888888_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/l10n.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/pipe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/rest-api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/shortcodes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/special-mail-tags.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/submission.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/upgrade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/languages/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/acceptance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/akismet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/checkbox.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/constant-contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/count.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/date.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/file.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/flamingo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/hidden.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/listo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/number.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/quiz.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/really-simple-captcha.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/recaptcha.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/response.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/select.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/submit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/text.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/textarea.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/settings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/uninstall.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/wp-contact-form-7.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/base/assets/WP-google-maps-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/base/assets/feature1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/base/assets/feature2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/base/assets/feature3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/base/assets/feature4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/base/assets/marker-listing-advanced.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/base/assets/marker-listing-basic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/base/assets/marker-listing-carousel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/base/assets/polygons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/base/assets/polylines.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/base/assets/storelocator.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/base/classes/WPGM_templates.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/base/classes/widget_module.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/base/includes/credits.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/base/includes/deprecated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/base/includes/full-screen-module.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/base/includes/welcome.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/base/includes/wp-google-maps-polygons.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/base/includes/wp-google-maps-polylines.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/css/data_table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/css/data_table_front.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/css/data_table_front_old.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/css/gutenberg.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/css/jquery.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/css/open-layers.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/css/wp-google-maps-admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/css/wp-google-maps-full-screen-map.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/css/wpgmza_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/WPGMZA.Circle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/WPGMZA.Compatibility.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/WPGMZA.Distance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/WPGMZA.Event.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/WPGMZA.EventDispatcher.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/WPGMZA.FriendlyError.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/WPGMZA.Geocoder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/WPGMZA.GoogleAPIErrorHandler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/WPGMZA.GoogleCircle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/WPGMZA.GoogleGeocoder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/WPGMZA.InfoWindow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/WPGMZA.LatLng.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/WPGMZA.LatLngBounds.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/WPGMZA.Map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/WPGMZA.MapEngineDialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/WPGMZA.MapObject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/WPGMZA.MapSettings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/WPGMZA.MapSettingsPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/WPGMZA.Marker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/WPGMZA.ModernStoreLocator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/WPGMZA.ModernStoreLocatorCircle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/WPGMZA.NativeMapsAppIcon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/WPGMZA.Polygon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/WPGMZA.Polyline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/WPGMZA.PopoutPanel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/WPGMZA.RestAPI.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/WPGMZA.module_RestAPI.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/classes.list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/img/glyphicons-halflings-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/img/glyphicons-halflings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-CSS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-Circle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-Compatibility.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-Distance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-Event.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-EventDispatcher.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-FriendlyError.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-Geocoder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-GoogleAPIErrorHandler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-GoogleCircle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-GoogleGeocoder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-GoogleInfoWindow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-GoogleMap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-GoogleMarker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-GoogleModernStoreLocator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-GoogleModernStoreLocatorCircle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-GooglePolygon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-GooglePolyline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-GoogleUICompatibility.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-GoogleVertexContextMenu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-Gutenberg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-InfoWindow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-Integration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-LatLng.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-LatLngBounds.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-Map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-MapObject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-MapSettings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-MapSettingsPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-MapsEngineDialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-Marker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-ModernStoreLocator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-ModernStoreLocatorCircle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-NativeMapsAppIcon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-OLCircle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-OLGeocoder-OLGeocoder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-OLGeocoder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-OLInfoWindow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-OLMap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-OLMarker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-OLModernStoreLocator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-OLModernStoreLocatorCircle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-OLPolygon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-OLPolyline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-Polygon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-Polyline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-PopoutPanel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-Version.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/module-WPGMZA.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/modules.list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/quicksearch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/scripts/docstrap.lib.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/scripts/fulltext-search-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/scripts/fulltext-search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/scripts/lunr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/scripts/prettify/Apache-License-2.0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/scripts/prettify/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/scripts/prettify/lang-css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/scripts/prettify/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/scripts/sunlight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/scripts/toc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/styles/darkstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/styles/prettify-tomorrow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/styles/site.cerulean.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/styles/site.cosmo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/styles/site.cyborg.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/styles/site.darkly.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/styles/site.darkstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/styles/site.dibs-bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/styles/site.flatly.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/styles/site.journal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/styles/site.lumen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/styles/site.paper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/styles/site.readable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/styles/site.sandstone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/styles/site.simplex.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/styles/site.slate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/styles/site.spacelab.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/styles/site.superhero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/styles/site.united.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/styles/site.yeti.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/styles/sunlight.dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/js/styles/sunlight.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.AutoLoader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.Crud.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.DOMDocument.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.DOMElement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.Factory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.GDPRCompliance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.GoogleGeocoder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.GoogleMap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.GoogleMapsAPILoader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.GoogleMapsLoader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.Integration.Gutenberg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.Integration.WPMigrateDB.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.LatLng.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.Map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.MapsEngineDialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.Marker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.ModalDialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.NominatimGeocodeCache.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.OLLoader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.Plugin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.RestAPI.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.ScriptLoader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.Selector.AttributeSelector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.Selector.ConvertException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.Selector.ParseException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.Selector.Parser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.Selector.PseudoSelector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.Selector.Selector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.Selector.Token.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.Selector.TokenStream.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.Selector.Tokenizer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.Selector.XPathConverter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/class-WPGMZA.Strings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/elementlist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/function-WPGMZA.Selector.trace.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/function-WPGMZA.create_marker_instance_delegate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/function-WPGMZA.create_plugin_instance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/function-WPGMZA.query_nominatim_cache.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/function-WPGMZA.store_nominatim_cache.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/function-wpgmza_backwards_compat_get_all_circle_data.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/function-wpgmza_backwards_compat_get_all_rectangle_data.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/function-wpgmza_check_admin_head_backwards_compat_v6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/function-wpgmza_check_map_editor_backwards_compat_v6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/function-wpgmza_check_pro_compat_required_v6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/function-wpgmza_check_user_backwards_compat_v6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/namespace-None.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/namespace-WPGMZA.Integration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/namespace-WPGMZA.Selector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/namespace-WPGMZA.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/resources/collapsed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/resources/combined.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/resources/footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/resources/inherit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/resources/resize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/resources/sort.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/resources/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/resources/tree-cleaner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/resources/tree-hasnext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/resources/tree-last.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/resources/tree-vertical.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.AutoLoader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.Crud.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.DOMDocument.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.DOMElement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.Factory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.GDPRCompliance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.GoogleGeocoder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.GoogleMap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.GoogleMapsAPILoader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.GoogleMapsLoader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.Integration.Gutenberg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.Integration.WPMigrateDB.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.LatLng.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.Map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.MapsEngineDialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.Marker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.ModalDialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.NominatimGeocodeCache.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.OLLoader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.Plugin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.RestAPI.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.ScriptLoader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.Selector.AttributeSelector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.Selector.ConvertException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.Selector.ParseException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.Selector.Parser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.Selector.PseudoSelector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.Selector.Selector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.Selector.Token.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.Selector.TokenStream.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.Selector.Tokenizer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.Selector.XPathConverter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-class-WPGMZA.Strings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-function-WPGMZA.Selector.trace.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-function-WPGMZA.create_marker_instance_delegate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-function-WPGMZA.create_plugin_instance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-function-WPGMZA.query_nominatim_cache.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-function-WPGMZA.store_nominatim_cache.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-function-wpgmza_backwards_compat_get_all_circle_data.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-function-wpgmza_backwards_compat_get_all_rectangle_data.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-function-wpgmza_check_admin_head_backwards_compat_v6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-function-wpgmza_check_map_editor_backwards_compat_v6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-function-wpgmza_check_pro_compat_required_v6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/docs/php/source-function-wpgmza_check_user_backwards_compat_v6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/html/gdpr-compliance-settings.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/html/google-maps-api-error-dialog.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/html/google-maps-api-settings.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/html/maps-engine-dialog.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/html/ol-feature-coming-soon.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/html/ol-feature-unavailable.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/html/tile-server-fieldset.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/12078862622125082831ipurush_Compass.svg.hi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/Google_maps_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/New1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/New2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/OpenLayers_logo.svg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/WP-google-maps-logo-1-B-transparent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/back_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/back_enabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/back_enabled_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/codecabin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/custom_marker_icons.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/custom_markers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/direction_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/forward_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/forward_enabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/forward_enabled_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/fullscreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/fullscreen_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/get_directions.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/google-maps.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/icons8-google-maps-500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/map-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/map_app.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/map_app_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/marker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/marker_iw_type_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/marker_iw_type_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/marker_iw_type_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/marker_iw_type_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/marker_iw_type_null.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/marker_list_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/marker_list_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/marker_list_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/marker_list_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/marker_list_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/marker_list_modern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/open-street-map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/openlayers_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/premium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/sort_asc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/sort_desc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/spotlight-poi2_hdpi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/theme_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/theme_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/theme_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/theme_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/theme_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/theme_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/theme_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/theme_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/theme_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/images/transparent.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/3rd-party-integration/class.gutenberg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/3rd-party-integration/class.wp-migrate-db-integration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/build.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/class.auto-loader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/class.crud.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/class.dom-document.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/class.dom-element.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/class.factory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/class.gdpr-compliance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/class.global-settings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/class.google-maps-api-loader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/class.latlng.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/class.map.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/class.maps-engine-dialog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/class.marker-filter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/class.marker.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/class.modal-dialog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/class.plugin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/class.rest-api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/class.script-loader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/class.script-loader.php.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/class.selector-to-xpath.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/class.strings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/classes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/compat/backwards_compat_v6.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/compat/js/backwards_compat_user_v6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/compat/js/backwards_compat_v6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/crud-test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/google-maps/class.google-geocoder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/google-maps/class.google-map.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/google-maps/class.google-maps-loader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/open-layers/class.nominatim-geocode-cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/includes/open-layers/class.ol-loader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/admin-basic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/countries.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/cross.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/dataTables.responsive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/hs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/hv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/jscolor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/markerclusterer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/media.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/usage_tracking.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/3rd-party-integration/gutenberg/dist/gutenberg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/3rd-party-integration/gutenberg/src/gutenberg.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/3rd-party-integration/integration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/circle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/compatibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/compatibility/google-ui-compatibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/countries.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/css-escape.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/distance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/event-dispatcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/event.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/friendly-error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/geocoder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/google-api-error-handler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/google-maps/google-circle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/google-maps/google-geocoder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/google-maps/google-info-window.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/google-maps/google-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/google-maps/google-marker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/google-maps/google-modern-store-locator-circle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/google-maps/google-modern-store-locator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/google-maps/google-polygon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/google-maps/google-polyline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/google-maps/google-vertex-context-menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/info-window.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/latlng.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/latlngbounds.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/map-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/map-settings-page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/map-settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/maps-engine-dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/marker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/modern-store-locator-circle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/modern-store-locator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/native-maps-icon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/open-layers/ol-circle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/open-layers/ol-geocoder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/open-layers/ol-info-window.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/open-layers/ol-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/open-layers/ol-marker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/open-layers/ol-modern-store-locator-circle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/open-layers/ol-modern-store-locator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/open-layers/ol-polygon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/open-layers/ol-polyline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/polygon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/polyline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/popout-panel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/rest-api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/scripts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/v7-custom-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/version.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/wp-google-maps.combined.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/v8/wp-google-maps.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/wp-google-maps-full-screen-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/wp-google-maps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/wpgmaps-admin-core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/wpgmaps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/wpgmaps.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/wpgmaps_osm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/wpgmaps_plugin_row.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/js/wpgmaps_tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/js/dataTables.cs_CZ.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/js/dataTables.de_DE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/js/dataTables.en_GB.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/js/dataTables.es_ES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/js/dataTables.fr_FR.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/js/dataTables.nl_NL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/js/dataTables.ru_RU.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/js/dataTables.se_SE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/js/dataTables.sk_SK.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/outdated/js/dataTables.cs_CZ.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/outdated/js/dataTables.de_DE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/outdated/js/dataTables.en_GB.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/outdated/js/dataTables.es_ES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/outdated/js/dataTables.fr_FR.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/outdated/js/dataTables.nl_NL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/outdated/js/dataTables.ru_RU.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/outdated/js/dataTables.se_SE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/outdated/js/dataTables.sk_SK.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/outdated/wp-google-maps-cs_CZ.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/outdated/wp-google-maps-cs_CZ.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/outdated/wp-google-maps-de_DE.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/outdated/wp-google-maps-de_DE.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/outdated/wp-google-maps-default.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/outdated/wp-google-maps-default.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/outdated/wp-google-maps-es_ES.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/outdated/wp-google-maps-es_ES.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/outdated/wp-google-maps-fr_FR.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/outdated/wp-google-maps-fr_FR.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/outdated/wp-google-maps-it_IT.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/outdated/wp-google-maps-it_IT.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/outdated/wp-google-maps-nl_NL.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/outdated/wp-google-maps-nl_NL.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/outdated/wp-google-maps-ru_RU.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/outdated/wp-google-maps-ru_RU.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/outdated/wp-google-maps-sv_SE.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/outdated/wp-google-maps-sv_SE.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-bg_BG.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-bg_BG.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-da_DK.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-da_DK.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-de_DE.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-de_DE.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-de_DE_v2.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-de_DE_v2.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-default.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-default.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-el_GR.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-el_GR.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-en_EN.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-en_EN.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-es_ES.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-es_ES.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-et_ET.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-et_ET.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-fi.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-fi.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-fr_FR.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-fr_FR.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-he_IL.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-he_IL.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-hr_HR.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-hr_HR.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-id_ID.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-id_ID.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-it_IT.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-it_IT.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-lt_LT.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-lt_LT.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-nl_NL.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-nl_NL.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-no_NO.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-no_NO.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-pl_PL.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-pl_PL.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-pt_BR.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-pt_BR.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-pt_PT.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-pt_PT.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-ro_RO.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-ro_RO.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-ru_RU.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-ru_RU.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-sk_SK.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-sk_SK.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-sr_RS.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-sr_RS.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-sv_SE.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-sv_SE.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-tr_TR.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/languages/wp-google-maps-tr_TR.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/lib/CanvasLayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/lib/CanvasLayerOptions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/lib/ElementQueries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/lib/ResizeSensor.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/lib/ResizeSensor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/lib/codecabin/deactivate-feedback-form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/lib/codecabin/deactivate-feedback-form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/lib/codecabin/deactivate-feedback-form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/lib/codecabin/remodal-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/lib/codecabin/remodal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/lib/codecabin/remodal.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/lib/jquery-cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/lib/jquery.tokeninput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/lib/modernizr-custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/lib/ol-debug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/lib/ol.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/lib/ol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/lib/remodal-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/lib/remodal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/lib/remodal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/lib/remodal.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/lib/spectrum.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/lib/spectrum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/lib/token-input-facebook.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/lib/token-input-mac.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/lib/token-input.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/wpGoogleMaps.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-google-maps/wpgmza_data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/philosophy/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/philosophy/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/philosophy/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/philosophy/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/philosophy/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/philosophy/inc/tgm.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/philosophy/inc/tgm.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,8 +656,17 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
+            <state relative-caret-position="75">
+              <caret line="3" column="70" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3419">
+              <caret line="182" column="5" selection-start-line="182" selection-start-column="5" selection-end-line="182" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -25,8 +674,27 @@
       <file leaf-file-name="tgm.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/inc/tgm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="68" column="10" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
+            <state relative-caret-position="358">
+              <caret line="78" column="10" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/markup/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="196" column="31" selection-start-line="176" selection-start-column="20" selection-end-line="196" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/contact.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
+              <caret line="47" column="77" selection-start-line="47" selection-start-column="77" selection-end-line="47" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -34,36 +702,17 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/markup/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+            <state relative-caret-position="25">
+              <caret line="84" column="74" selection-start-line="84" selection-start-column="74" selection-end-line="84" selection-end-column="74" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post-gallery.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/template-parts/post-formats/post-gallery.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post-video.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/template-parts/post-formats/post-video.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="post-audio.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/template-parts/post-formats/post-audio.php">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/single.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2056">
-              <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+            <state relative-caret-position="525">
+              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -71,23 +720,21 @@
       <file leaf-file-name="comments.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/comments.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="1175">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="category.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/category.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-450" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
+            <state relative-caret-position="2025">
               <caret line="81" column="36" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
             </state>
           </provider>
@@ -115,6 +762,7 @@
       <find>camera:</find>
       <find>extra</find>
       <find>header__na</find>
+      <find>form</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -123,7 +771,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/alpha/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/alpha/about-page-template.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/alpha/hero-page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/alpha/template-parts/about-page/hero-page.php" />
@@ -170,9 +817,10 @@
         <option value="$PROJECT_DIR$/wp-content/themes/philosophy/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/philosophy/template-parts/common/navigation.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/philosophy/template-parts/post-formats/post-gallery.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/philosophy/inc/tgm.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/philosophy/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/philosophy/comments.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/philosophy/inc/tgm.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/philosophy/contact.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/philosophy/functions.php" />
       </list>
     </option>
@@ -242,24 +890,6 @@
               <item name="philosophy" type="462c0819:PsiDirectoryNode" />
               <item name="template-parts" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="lwhh" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lwhh" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="philosophy" type="462c0819:PsiDirectoryNode" />
-              <item name="template-parts" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lwhh" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lwhh" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="philosophy" type="462c0819:PsiDirectoryNode" />
-              <item name="template-parts" type="462c0819:PsiDirectoryNode" />
-              <item name="post-formats" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -275,17 +905,17 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\lwhh\wp-content\themes\alpha\template-parts\common" />
+      <recent name="D:\xampp\htdocs\lwhh\wp-content\themes\alpha\template-parts\about-page" />
+      <recent name="D:\xampp\htdocs\lwhh\wp-content\themes\alpha\page-templates" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\xampp\htdocs\lwhh\wp-content\themes\philosophy" />
       <recent name="D:\xampp\htdocs\lwhh\wp-content\themes\philosophy\template-parts\post-formats" />
       <recent name="D:\xampp\htdocs\lwhh\wp-content\themes\philosophy\inc" />
       <recent name="D:\xampp\htdocs\lwhh\wp-content\themes\alpha" />
       <recent name="D:\xampp\htdocs\lwhh\wp-content\themes\alpha\post-formats" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\xampp\htdocs\lwhh\wp-content\themes\alpha\template-parts\common" />
-      <recent name="D:\xampp\htdocs\lwhh\wp-content\themes\alpha\template-parts\about-page" />
-      <recent name="D:\xampp\htdocs\lwhh\wp-content\themes\alpha\page-templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -345,28 +975,28 @@
       <workItem from="1546592769243" duration="3075000" />
       <workItem from="1546622704095" duration="2040000" />
       <workItem from="1546798233086" duration="3655000" />
-      <workItem from="1546969438216" duration="4297000" />
+      <workItem from="1546969438216" duration="4925000" />
+      <workItem from="1547044200186" duration="3192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97373000" />
+    <option name="totallyTimeSpent" value="101193000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21785174" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32838285" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21482602" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -375,24 +1005,25 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19062027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32838285" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -405,20 +1036,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/tag.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/date.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -606,13 +1223,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="246" column="7" selection-start-line="246" selection-start-column="7" selection-end-line="246" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/template-parts/blog-home/featured.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -658,24 +1268,10 @@
         <state relative-caret-position="-456" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/inc/tgm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="68" column="10" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/markup/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/template-parts/post-formats/post-gallery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state relative-caret-position="475">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -687,34 +1283,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
+        <state relative-caret-position="2025">
           <caret line="81" column="36" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2056">
-          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        <state relative-caret-position="525">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/comments.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="1175">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/category.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/markup/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-450" />
+        <state relative-caret-position="25">
+          <caret line="84" column="74" selection-start-line="84" selection-start-column="74" selection-end-line="84" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/inc/tgm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="78" column="10" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/markup/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="196" column="31" selection-start-line="176" selection-start-column="20" selection-end-line="196" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
+          <caret line="47" column="77" selection-start-line="47" selection-start-column="77" selection-end-line="47" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3419">
+          <caret line="182" column="5" selection-start-line="182" selection-start-column="5" selection-end-line="182" selection-end-column="5" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/philosophy/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
+        <state relative-caret-position="75">
+          <caret line="3" column="70" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
         </state>
       </provider>
     </entry>
