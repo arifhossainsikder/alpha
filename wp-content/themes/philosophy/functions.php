@@ -53,7 +53,7 @@ function philosophy_pagination()
 		'current' => max(1, get_query_var('paged')),
 		'total' => $wp_query->max_num_pages,
 		'type' => 'list',
-		'mid_size' => 3
+		'mid_size' => apply_filters( "philosophy_pagination_mid_size", 3 )
 	));
 	$links = str_replace("page-numbers", "pgn__num", $links);
 	$links = str_replace("<ul class='pgn__num'>", "<ul>", $links);
@@ -159,3 +159,68 @@ FORM;
 }
 
 add_filter( "get_search_form", "philosophy_search_form" );
+
+function category_before_title1() {
+	echo "<p>Before Title 1</p>";
+}
+
+add_action( "philosphy_before_category_title", "category_before_title1" );
+
+function category_before_title2() {
+	echo "<p>Before Title 2</p>";
+}
+
+add_action( "philosphy_before_category_title", "category_before_title2", 4 );
+
+function category_before_title3() {
+	echo "<p>Before Title 3</p>";
+}
+
+add_action( "philosphy_before_category_title", "category_before_title3",9 );
+
+function category_after_title() {
+	echo "<p>After Title</p>";
+}
+
+add_action( "philosphy_after_category_title", "category_after_title" );
+
+function category_after_desc() {
+	echo "<p>After Description</p>";
+}
+
+add_action( "philosphy_after_category_description", "category_after_desc" );
+
+
+function beginning_category_page( $category_title ) {
+	if ( "New" == $category_title ) {
+		$visit_count = get_option( "category_new" );
+		$visit_count = $visit_count ? $visit_count : 0;
+		$visit_count ++;
+		update_option( "category_new", $visit_count );
+	}
+}
+
+add_action( "philosphy_category_page", "beginning_category_page" );
+
+
+function philosophy_home_banner_class( $class_name ) {
+	if ( is_home() ) {
+		return $class_name;
+	} else {
+		return "";
+	}
+}
+
+add_filter( "philosophy_home_banner_class", "philosophy_home_banner_class" );
+
+function pagination_mid_size( $size ) {
+	return 2;
+}
+
+add_filter( "philosophy_pagination_mid_size", "pagination_mid_size" );
+
+function uppercase_text( $param1, $param2, $param3 ) {
+	return ucwords( $param1 ) . " " . strtoupper( $param2 ) . " " . ucwords( $param3 );
+}
+
+add_filter( "philosophy_text", "uppercase_text", 10, 3 );

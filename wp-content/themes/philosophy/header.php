@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html class="no-js" <?php language_attributes(); ?>>
 <head>
 
     <!--- basic page needs
@@ -21,9 +21,7 @@
 
 <!-- pageheader
 ================================================== -->
-<section class="s-pageheader <?php if ( is_home() ) {
-	echo "s-pageheader--home";
-} ?>">
+<section class="s-pageheader <?php echo apply_filters("philosophy_home_banner_class","s-pageheader--home"); ?>">
 
     <header class="header">
         <div class="header__content row">
@@ -47,14 +45,7 @@
 
             <div class="header__search">
 
-                <form role="search" method="get" class="header__search-form" action="#">
-                    <label>
-                        <span class="hide-content">Search for:</span>
-                        <input type="search" class="search-field" placeholder="Type Keywords" value="" name="s"
-                               title="Search for:" autocomplete="off">
-                    </label>
-                    <input type="submit" class="search-submit" value="Search">
-                </form>
+				<?php get_search_form(); ?>
 
                 <a href="#0" title="Close Search" class="header__overlay-close">Close</a>
 
