@@ -82,6 +82,11 @@ function philosophy_register_required_plugins()
 			'slug'     => 'contact-form-7',
 			'required' => false,
 		),
+		array(
+			'name'     => 'Custom Post Type UI',
+			'slug'     => 'custom-post-type-ui',
+			'required' => false,
+		),
 
 
 	);
